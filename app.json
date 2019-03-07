@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/my/my",
+    "pages/index/index",
+    "pages/login/login",
+    "pages/appoint/appoint",
+    "pages/bill/bill",
+    "pages/appsubmit/appsubmit",
+    "pages/show/show",
+    "pages/logi/logi",
+    "pages/barber/barber",
+    "pages/barapp/barapp",
+    "pages/userinformation/userinformation",
+    "pages/barberapo/barberapo",
+    "pages/barbersl/barbersl",
+    "pages/schedule/schedule"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "美容美发预约",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/main.png",
+        "selectedIconPath": "/images/main2.png"
+      },
+      {
+        "pagePath": "pages/appoint/appoint",
+        "text": "预约",
+        "iconPath": "/images/appoint2.png",
+        "selectedIconPath": "/images/appoint3.png"
+      },
+      {
+        "pagePath": "pages/bill/bill",
+        "text": "结账",
+        "iconPath": "/images/bill.png",
+        "selectedIconPath": "/images/bill2.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人中心",
+        "iconPath": "/images/my.png",
+        "selectedIconPath": "/images/my2.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+<view>
+  <!-- 个人中心上部分 -->
+  <view class='my_top'>
+    <!-- 头像 -->
+    <view class='my'>
+      <image class='head' src='/images/touxiang.png'></image>
+      <view class='hd'>
+        <view class='my_head2' bindtap='log'>登录</view>
+        <view class='my_head' bindtap='login'>注册</view>
+      </view>
+    </view>
+  </view>
+  <!-- 下半部分 -->
+  <!-- 用户部分的功能 -->
+  <view class='my_middle' wx:if="{{name=='用户'}}">
+    <image class='my_img' style="height:70rpx;width:70rpx" src='/images/状态.png'></image>
+    <image class='my_img' style="height:70rpx;width:70rpx" src='/images/积分2.png'></image>
+    <image class='my_img' style="height:70rpx;width:70rpx" src='/images/VIP.png'></image>
+    <image class='my_img' style="height:75rpx;width:75rpx" src='/images/兑换.png'></image>
+    <view class='my_font1'>
+      <view class='my_font'>预约查看</view>
+      <view class='my_font2'>积分</view>
+      <view class='my_font3'>会员卡</view>
+      <view class='my_font4'>礼品兑换</view>
+    </view>
+  </view>
+  <!-- 管理员部分的功能 -->
+  <view class='my_middle' wx:if="{{name=='管理员'}}">
+    <image class='my_img' style="height:70rpx;width:70rpx" src='/images/用户管理.png'></image>
+    <image class='my_img' style="height:70rpx;width:70rpx" src='/images/查看.png'></image>
+    <image class='my_img' style="height:70rpx;width:70rpx" src='/images/员工管理.png'></image>
+    <image class='my_img' style="height:70rpx;width:65rpx" src='/images/查看员工.png'></image>
+    <view class='my_font1'>
+      <view class='my_font'>用户管理</view>
+      <view class='my_font5'>查看用户</view>
+      <view class='my_font6'>员工管理</view>
+      <view class='my_font7'>查看员工</view>
+    </view>
+  </view>
+  <!-- 理发师部分的功能 -->
+  <view class='my_middle' wx:if="{{name=='理发师'}}">
+    <image class='my_img' style="height:70rpx;width:70rpx" src='/images/状态.png' bindtap='barber1'></image>
+    <image class='my_img' style="height:70rpx;width:70rpx" src='/images/订单.png' bindtap='barber2'></image>
+    <image class='my_img' style="height:70rpx;width:70rpx" src='/images/时间.png' bindtap='barber3'></image>
+    <view class='my_font1'>
+      <view class='my_font'>预约查看</view>
+      <view class='my_font8'>查看订单</view>
+      <view class='my_font9'>时间表</view>
+
+    </view>
+  </view>
+</view>

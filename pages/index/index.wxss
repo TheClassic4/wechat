@@ -1,0 +1,202 @@
+/**index.wxss**/
+.index_top{
+  height:130rpx;
+  border-bottom: 0.5rpx solid rgb(233, 230, 230);
+}
+.title{
+  width: 600rpx;
+  float: left;
+}
+.index_title{
+  font-size: 34rpx;
+  margin-top:16rpx;
+  margin-left: 24rpx;
+  font-weight:600;
+}
+/* .ind{
+  margin-left: 25px
+} */
+.index_dic{
+  margin-top: 10rpx;
+  font-size: 28rpx;
+  margin-left: 24rpx;
+  color: #adadad;
+}
+.tel{
+  margin-top: 34rpx;
+  width: 120rpx;
+  height: 54rpx;
+  float: left;
+  border-left: 1px solid rgb(233, 230, 240);
+}
+.tel_icon{
+  height: 50rpx;
+  width: 50rpx;
+  margin-left:50rpx;
+}
+.index_middle{
+  margin-top: 20rpx;
+  height: 100rpx;
+  width: 800rpx;
+  margin-left: 20rpx;
+  float: left;
+
+}
+.index_middle image{
+  margin-left: 49rpx;
+  width:90rpx;
+  height: 90rpx;
+  float: left;
+}
+.index_pic{
+  margin-left: 2rpx;
+}
+.index_font1{
+  float: left;
+  font-size: 30rpx;
+  margin-left: 42rpx;
+
+}
+.index_font{
+  float: left;
+  width:90rpx;
+  height: 60rpx;
+  margin-left: 42rpx;
+  color: #666;
+}
+
+/* 下半部分 */
+.index_bottom{
+  float: left;
+  width: 800rpx;
+  height: 800rpx;
+  background-color: #f1f3f4;
+}
+.recom1{
+  float: left;
+  margin-top: 30rpx;
+}
+.recom{
+  font-size: 32rpx;
+  font-weight: 600;
+  float: left;
+  color: #adadad;
+  margin-left: 15rpx;
+  margin-right: 15rpx;
+}
+.recom2{
+  float: left;
+  width: 20rpx;
+  border-bottom: 1rpx solid #adadad;
+  margin-top: 25rpx;
+}
+#recom2{
+  margin-left: 290rpx;
+}
+.barber{
+  margin-left: 35rpx;
+  float: left;
+  width: 680rpx;
+}
+.barber_top{
+  height: 150rpx;
+  margin-top: 20rpx;
+  background-color:#FCE2CE;
+  border-radius: 18rpx 18rpx 0 0;
+}
+
+.barber_img{
+  float: left;
+  margin-left: 24rpx;
+  margin-top: 18rpx;
+  height: 120rpx;
+  width: 120rpx;
+}
+.barder_font1{
+  margin-top: 28rpx;
+  margin-left:30rpx;
+  float: left;
+  width: 500rpx;
+  font-weight: 600;
+  color: #f18b3f;
+  font-size: 36rpx;
+}
+.barber_font2{
+  margin-top: 8rpx;
+  margin-left:30rpx;
+  float: left;
+  font-size: 26rpx;
+  color: #666;
+}
+.barber_font3{
+  float: right;
+  font-size: 26rpx;
+  color:#666;
+  margin-right: 29rpx;
+}
+.barber_bottom{
+  float: left;
+  height: 180rpx;
+  width: 680rpx;
+  background-color: white;
+  border-radius: 0 0 18rpx 18rpx;
+}
+.barber_font4{
+  margin-left: 30rpx;
+  float: left;
+  width: 92rpx;
+  height: 50rpx;
+  font-size: 26rpx;
+  color: #666;
+  background-color: #f1f3f4;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 30rpx;
+  margin-top: 30rpx;
+
+}
+.barbar4{
+  margin-top: 10rpx;
+}
+.barber_font5{
+  float: right;
+  width: 180rpx;
+  height: 66rpx;
+  color: white;
+  font-size: 30rpx;
+  text-align: center;
+  background-color: #ff4e4e;
+  margin-top: 25rpx;
+  border-radius: 50rpx;
+  margin-right: 25rpx;
+}
+.barber5{
+  margin-top: 12rpx;
+}
+.barber_font6{
+  float: left;
+  margin-left: 30rpx;
+  font-size: 30rpx;
+  color:#ff4d54;
+}
+.barber_font7{
+  margin-left: 40rpx;
+  float: left; 
+  font-size: 30rpx;   
+  color: #666;          
+}
+.barber_font8{
+  float: right;
+  font-size: 30rpx;
+  color: #666;
+  margin-right: 34rpx;
+}
+.barber_bottom1{
+  float: left;
+  width: 680rpx;
+}
+.barber_bottom2{
+  float: left;
+  margin-top: 24rpx;
+  width: 680rpx;
+}

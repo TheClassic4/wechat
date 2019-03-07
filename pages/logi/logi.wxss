@@ -1,0 +1,22 @@
+/* pages/logi/logi.wxss */
+.in{
+  margin-top: 40rpx;
+  height: 80rpx;
+  width: 340px;
+  margin-left: 35rpx;
+  border-bottom: 1px solid #ddd;
+}
+.word{
+  float: left;
+  margin-left: 15rpx;
+  font-size: 32rpx;
+}
+.in input{
+  margin-left:250rpx;
+}
+.submit{
+  margin-top: 100px;
+  width: 660rpx;
+  background-color: rgba(255, 0, 0, 0.664);
+  color: #fff;
+}

@@ -1,0 +1,65 @@
+/* pages/login/login.wxss */
+.my_head{
+ background-color: #FCE2CE;
+ height: 200px;
+}
+.head{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left:275rpx; 
+  margin-top: 60rpx;
+}
+.infor{
+  margin-top: 50rpx;
+}
+.in{
+  margin-top: 40rpx;
+  height: 80rpx;
+  width: 340px;
+  margin-left: 35rpx;
+  border-bottom: 1px solid #ddd;
+}
+.word{
+  float: left;
+  margin-left: 15rpx;
+  font-size: 32rpx;
+}
+.infor input{
+  margin-left: 200rpx;
+}
+.man{
+  margin-left: 180px;
+  font-size: 16px;
+  color: rgb(148, 145, 145);
+}
+.woman{
+  margin-left: 20px;
+  font-size: 16px;
+  color: rgb(148, 145, 145);
+}
+.submit{
+  margin-top: 100px;
+  width: 660rpx;
+  background-color: rgba(255, 0, 0, 0.664);
+  color: #fff;
+}
+
+radio .wx-radio-input.wx-radio-input-checked{
+   border: none;
+   background: #FCE2CE;
+}
+/* 选中后的 对勾样式 （白色对勾 可根据UI需求自己修改） */
+radio .wx-radio-input.wx-radio-input-checked::before{
+   border-radius: 50%;/* 圆角 */
+   width: 40rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+   height: 40rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+   line-height: 40rpx;
+   text-align: center;
+   font-size:30rpx; /* 对勾大小 30rpx */
+   color:rgba(255, 0, 0, 0.664); /* 对勾颜色 白色 */
+   background: #FCE2CE;
+   transform:translate(-50%, -50%) scale(1);
+   -webkit-transform:translate(-50%, -50%) scale(1);
+}

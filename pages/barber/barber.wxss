@@ -1,0 +1,79 @@
+/* pages/barber/barber.wxss */
+.background{
+  height: 400rpx;
+  background-color:#FCE2CE ;
+}
+.touxiang{
+  margin-top: 55rpx;
+  margin-left: 250rpx;
+  height: 250rpx;
+  width: 250rpx;
+}
+.apo{
+  float: right;
+  width: 180rpx;
+  height: 66rpx;
+  color: white;
+  text-align: center;
+  background-color: #ff4e4e;
+  margin-top: -55rpx;
+  border-radius: 50rpx;
+  margin-right: 50rpx;
+}
+.appo{
+  margin-top: 5rpx;
+  font-size: 40rpx;
+}
+.name{
+  margin-left: 312rpx;
+}
+.app{
+  border-radius: 10rpx;
+  margin-top: 15rpx;
+  float: left;
+  width: 660rpx;
+  background-color: #FCE2CE;
+  height: 70rpx;
+}
+.app1{
+  margin-left:45rpx;
+}
+.appoint{
+  margin-left: 5rpx;
+  color: #666;
+}
+.appoint2{
+  color: #666;
+  margin-top: 25rpx;
+  margin-left: 65rpx;
+}
+.font1{
+  float: left;
+  margin-left: 45rpx;
+  margin-top: 10rpx;
+}
+.font2{
+  float: right;
+  margin-right: 35rpx;
+  margin-top: 10rpx;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+
+}
+.pic{
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+}
+.pic1{
+  width: 200rpx;
+  height: 240rpx;
+  margin-left: 25rpx;
+}
+.more{
+  font-size: 32rpx;
+  margin-left: 600rpx;
+  color: #666;
+}

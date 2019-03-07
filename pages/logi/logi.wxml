@@ -1,0 +1,14 @@
+<!--pages/logi/logi.wxml-->
+<view>
+  <view class='in'>
+    <view class='word'>账号</view>
+    <input  placeholder='请输入你的账号' placeholder-style='font-size:16px;margin-left:100px'  bindinput='logsId'></input>
+  </view>
+  <view class='in'>
+    <view class='word'>密码</view>
+    <input  placeholder='请输入你的密码' placeholder-style='font-size:16px;margin-left:100px'  bindinput='logsPassword'></input>
+  </view>
+    <view>
+    <button class='submit' bindtap='confirm'>登录</button>
+  </view>
+</view>

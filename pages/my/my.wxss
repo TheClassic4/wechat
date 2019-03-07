@@ -1,0 +1,76 @@
+/* pages/my/my.wxss */
+.my{
+  background-color:#FCE2CE;
+  height: 360rpx;
+}
+.hd{
+  width: 650rpx;
+  height: 20rpx;
+}
+.head{
+  width: 250rpx;
+  height: 250rpx;
+  margin-left: 250rpx;
+  margin-top: 40rpx;
+}
+.my_head2{
+  margin-left: 280rpx;
+  float: left;
+  color: #727272;
+  font-size: 35rpx;
+  text-align: center;
+
+}
+.my_head{
+  margin-left: 40rpx;
+  float: left;
+  color: #727272;
+  font-size: 35rpx;
+  text-align: center;
+}
+.my_middle{
+  margin-top: 80rpx;
+}
+.my_img{
+  margin-left: 90rpx;
+}
+.my_font1{
+  font-size: 32rpx;
+  margin-left: 60rpx;
+  color: #727272;
+}
+.my_font{
+  float: left;
+}
+.my_font2{
+  float: left;
+  margin-left: 64rpx;
+}
+.my_font3{
+  float: left;
+  margin-left: 82rpx;
+}
+.my_font4{
+  float: left;
+  margin-left: 52rpx;
+}
+.my_font5{
+  float: left;
+  margin-left: 32rpx;
+}
+.my_font6{
+  float: left;
+  margin-left: 40rpx;
+}
+.my_font7{
+  float: left;
+  margin-left: 34rpx;
+}
+.my_font8{
+  float: left;
+  margin-left: 36rpx;
+}
+.my_font9{
+  float: left;
+  margin-left: 45rpx;
+}

@@ -1,0 +1,29 @@
+<!--pages/appoint/appoint.wxml-->
+<!-- 模拟样式，后续应该需要用 wx:for -->
+<!-- 加入提示框如果时间快到了就提醒 -->
+<view class='appoint'>
+  <view class='barber' wx:for="{{barberList}}" wx:for-item="item"  wx:key="item.index">
+    <view class='barber_top'>
+      <image class='barber_img' src='/images/touxiang.png'></image>
+      <view class='barder_font1'>{{item.name}}</view>
+      <view class='barber_font2'>理发师</view>
+      <view class='barber_font3' bindtap='barber' data-index="{{index}}">查看详情></view>
+    </view>
+    <view class='barber_bottom'>
+      <view class='barber_bottom1'>
+        <view class='barber_font4'>
+          <view class='barbar4'>专业</view>
+        </view>
+        <view class='barber_font5' >
+          <view class='barber5' bindtap='submit'>预约TA</view>
+        </view>
+      </view>
+      <view class='barber_bottom2'>
+        <view class='barber_font6'>好评率：100%</view>
+        <view class='barber_font7'>已被约：{{item.times}}次</view>
+        <view class='barber_font8'>作品数：{{item.works}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+ 

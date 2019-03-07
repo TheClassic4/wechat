@@ -1,0 +1,22 @@
+<!--pages/appsubmit/appsubmit.wxml-->
+<view>
+<view class='appoint2'>预约时间</view>
+<view class='appoint3'>烫发需要选连续的三个小时</view>
+<scroll-view class='y' scroll-y="true" style="height: 850rpx">
+  <view class='appoint'>
+    <checkbox-group class='app1' bindchange='checkboxChange'>
+      <view class='app' wx:for="{{barberList}}" wx:for-item="item" wx:key="item.index">
+        <view class='app2'>
+          <view class='font1'>{{item.timePeriod}}</view>
+          <view class='font2'>{{item.status}}</view>
+        </view>
+        <checkbox checked="{{item.checked}}" />
+      </view>
+    </checkbox-group>
+  </view>
+</scroll-view>
+<view>
+  <button>预约理发</button>
+  <button>预约烫发</button>
+</view>
+</view>

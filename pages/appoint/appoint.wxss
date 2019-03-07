@@ -1,0 +1,114 @@
+/* pages/appoint/appoint.wxss */
+.appoint{
+  background-color: #f1f3f4;
+  width: 800rpx;
+  height: 1000rpx;
+}
+.barber{
+  margin-left: 35rpx;
+  float: left;
+  width: 680rpx;
+ 
+}
+.barber_top{
+  height: 150rpx;
+  margin-top: 20rpx;
+  background-color:#FCE2CE;
+  border-radius: 18rpx 18rpx 0 0;
+}
+
+.barber_img{
+  float: left;
+  margin-left: 24rpx;
+  margin-top: 18rpx;
+  height: 120rpx;
+  width: 120rpx;
+}
+.barder_font1{
+  margin-top: 28rpx;
+  margin-left:30rpx;
+  float: left;
+  width: 500rpx;
+  font-weight: 600;
+  color: #f18b3f;
+  font-size: 36rpx;
+}
+.barber_font2{
+  margin-top: 8rpx;
+  margin-left:30rpx;
+  float: left;
+  font-size: 26rpx;
+  color: #666;
+}
+.barber_font3{
+  float: right;
+  font-size: 26rpx;
+  color:#666;
+  margin-right: 29rpx;
+}
+.barber_bottom{
+  float: left;
+  height: 180rpx;
+  width: 680rpx;
+  background-color: white;
+  border-radius: 0 0 18rpx 18rpx;
+}
+.barber_font4{
+  margin-left: 30rpx;
+  float: left;
+  width: 92rpx;
+  height: 50rpx;
+  font-size: 26rpx;
+  color: #666;
+  background-color: #f1f3f4;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 30rpx;
+  margin-top: 30rpx;
+
+}
+.barbar4{
+  margin-top: 10rpx;
+}
+.barber_font5{
+  float: right;
+  width: 180rpx;
+  height: 66rpx;
+  color: white;
+  font-size: 30rpx;
+  text-align: center;
+  background-color: #ff4e4e;
+  margin-top: 25rpx;
+  border-radius: 50rpx;
+  margin-right: 25rpx;
+}
+.barber5{
+  margin-top: 12rpx;
+}
+.barber_font6{
+  float: left;
+  margin-left: 30rpx;
+  font-size: 30rpx;
+  color:#ff4d54;
+}
+.barber_font7{
+  margin-left: 40rpx;
+  float: left; 
+  font-size: 30rpx;   
+  color: #666;          
+}
+.barber_font8{
+  float: right;
+  font-size: 30rpx;
+  color: #666;
+  margin-right: 34rpx;
+}
+.barber_bottom1{
+  float: left;
+  width: 680rpx;
+}
+.barber_bottom2{
+  float: left;
+  margin-top: 24rpx;
+  width: 680rpx;
+}

@@ -1,0 +1,30 @@
+<!--pages/login/login.wxml-->
+<view>
+  <!-- 头像 -->
+  <view class='my_head'>
+    <image class='head' src='/images/myt.jpg'></image>
+  </view>
+  <!-- 注册表单列表 -->
+  <view class='infor'>
+    <view class='in'>
+      <view class='word' id='name'>昵称</view>
+      <input placeholder='请输入你的昵称' placeholder-style='font-size:16px;margin-left:100px'  bindinput='logName'></input>
+    </view>
+    <view class='in'>
+      <view class='word'>性别</view>
+      <!-- radio的父级组件radio-group的特性就是保持必须要有一个radio被选中-->
+      <radio-group bindchange="radioChange">
+        <radio class='man' value='男'>男</radio>
+        <radio class='woman' value='女'>女</radio>
+      </radio-group>
+    </view>
+    <view class='in'>
+      <view class='word' id='password'>密码</view>
+      <input placeholder='请输入你的密码' placeholder-style='font-size:16px;margin-left:100px' password bindinput='logPassword'></input>
+    </view>
+  </view>
+  <!-- 提交按钮 -->
+  <view>
+    <button class='submit' bindtap='submit'>提交</button>
+  </view>
+</view>

@@ -1,0 +1,30 @@
+<!--pages/barber/barber.wxml-->
+<view>
+  <view class='background'>
+    <image class='touxiang' src='../../images/touxiang.png'></image>
+    <view class='name'>{{name}}</view>
+    <view class='apo'><view class='appo' bindtap='submit'>预约TA</view></view>
+  </view>
+  <view class='bot'>
+  <view class='appoint2'>预约时间</view>
+  <scroll-view class='y' scroll-y="true" style="height: 180px">
+    <view class='appoint'>
+      <view class='app1'>
+        <view class='app' wx:for="{{barberList}}" wx:for-item="item"  wx:key="item.index"  >
+          <view class='font1'>{{item.timePeriod}}</view>
+          <view class='font2'>{{item.status}}</view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+  <view>
+    <view class='appoint2'>个人作品</view>
+    <view class='more'>更多></view>
+    <view class='pic'>
+      <image class='pic1' src='../../images/faxing2.jpg'></image>
+      <image class='pic1' src='../../images/faxing3.jpg'></image>
+      <image class='pic1' src='../../images/faxing1.jpg'></image>
+    </view>
+  </view>
+  </view>
+</view>

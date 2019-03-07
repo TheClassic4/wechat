@@ -1,0 +1,78 @@
+<!--index.wxml-->
+<view>
+  <swiper class='ind' indicator-dots="true" autoplay="true" interval="3000" duration="600" style="height:360rpx;">
+    <!-- 显示面板指示点 3000ms自动切换 动画市场600ms -->
+    <swiper-item>
+      <image src="../../images/img2.jpg" style="display: block;height: 360rpx;width:800rpx" />
+    </swiper-item>
+    <swiper-item>
+      <image src="../../images/img5.jpg" style="display: block;height: 360rpx;width:800rpx" />
+    </swiper-item>
+    <swiper-item>
+      <image src="../../images/img3.jpg" style="display: block;height: 360rx;width:800rpx" />
+    </swiper-item>
+  </swiper>
+
+  <view class='index_top'>
+    <view class='title'>
+      <view class='index_title'>美容美发总店</view>
+      <view class='index_dic'>理工大学华府广场店[定位]</view>
+    </view>
+    <view bindtap='tel' class='tel'>
+      <image class='tel_icon' src='../../images/tel.png'></image>
+    </view>
+  </view>
+  <!-- 中间导航栏 -->
+  <view class='index_middle'>
+    <image bindtap='gotoA' class='index_pic' src='/images/预约.png'></image>
+    <image class='index_pic' src='/images/服务.png'></image>
+    <image style="height:80rpx;width:80rpx" src='/images/积分.png'></image>
+    <image style="height:80rpx;width:80rpx" src='/images/反结账.png'></image>
+    <image style="height:80rpx;width:80rpx" src='/images/更多.png'></image>
+  </view>
+  <view class='index_font1'>
+    <view class='index_font' >预约</view>
+    <view class='index_font'>服务</view>
+    <view class='index_font'>积分</view>
+    <view class='index_font'>结账</view>
+    <view class='index_font'>更多</view>
+  </view>
+
+  <view class='index_bottom'>
+    <!-- 推荐技师 -->
+    <view class='recom1'>
+      <view class='recom2' id='recom2'></view>
+      <view class='recom'>推荐技师</view>
+      <view class='recom2'></view>
+    </view>
+    <!-- 技师展示 -->
+    <!-- 模拟样式，后续应该需要用 wx:for -->
+    <view class='barber' wx:for="{{barberList}}" wx:for-item="item"  wx:key="item.index"  data-value="{{item.value}}" 
+>
+      <view class='barber_top'>
+        <image class='barber_img' src='/images/touxiang.png'></image>
+        <view class='barder_font1'>{{item.name}}</view>
+        <view class='barber_font2'>理发师</view>
+        <view class='barber_font3' bindtap='barberInfo' data-index="{{index}}">查看详情></view>
+      </view>
+      <view class='barber_bottom'>
+        <view class='barber_bottom1'>
+          <view class='barber_font4'>
+            <view class='barbar4'>专业</view>
+          </view>
+          <view class='barber_font5' >
+            <view class='barber5' bindtap='submit'>预约TA</view>
+          </view>
+        </view>
+        <view class='barber_bottom2'>
+          <view class='barber_font6'>好评率：100%</view>
+          <view class='barber_font7'>已被约：{{item.times}}次</view>
+          <view class='barber_font8'>作品数：{{item.works}}</view>
+        </view>
+      </view>
+    </view>
+      
+   
+  </view>
+  
+</view>
